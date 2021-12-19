@@ -1,0 +1,24 @@
+CACHE MANIFEST 
+# Sleirs Host 900 18-12-2021
+
+fakeusb.js
+ftp.js
+goldhen20b.js
+index.html
+kexploit-launcher.js
+netcat.js
+payload.html
+common\relocator.js
+common\syscalls.js
+common\syscalls2.js
+kexploit\int64.js
+kexploit\kexploit.js
+kexploit\rop.js
+mira\mira.js
+mira\mira2.js
+webkit-9.00\exploit.js
+webkit-9.00\malloc.js
+webkit-9.00\rop\rop.js
+
+NETWORK:
+*
