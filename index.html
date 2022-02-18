@@ -41,13 +41,12 @@ window.applicationCache.oncached = window.applicationCache.onupdateready = funct
     </p>
     <div id="english" class="language" style="display: block">
         <h3>READ THIS CAREFULLY BEFORE PROCEEDING</h3>
-        
         <ol>
             <li>Flash <a href="https://github.com/ChendoChap/pOOBs4/raw/master/exfathax.img">this image</a> onto a USB drive. You can
                 use the "Etcher" program (download <a href="https://www.balena.io/etcher/">here</a>) to perform the flashing.
                 <b>Note: this will erase your USB drive, and you will NOT be able to use it for anything else. It will become a
                 jailbreaking dongle ONLY.</b></li>
-            <li>Click on the link that says JB+MIRA<s> or JB+GoldHEN</s>, depending on your personal habits. In about a minute you'll
+            <li>Click on the link that says JB+MIRA<s> or JB+HEN</s>, depending on your personal habits. In about a minute you'll
                 be prompted to insert the USB drive you prepared. Insert the USB drive, wait for the notification about
                 the invalid format to pop up, then eject the drive and click OK. <b>Important: never leave the drive inserted during a reboot!</b></li>
             <li>You will get a message saying "There is not enough free system memory". This is normal, just click OK.</li>
@@ -65,6 +64,8 @@ window.applicationCache.oncached = window.applicationCache.onupdateready = funct
             <li><b>For advanced users:</b> To load your own payloads using NetCat, run JB+NETCAT and send the
                 payload to TCP port 9021 (9020 for the legacy version).</li>
         </ol>
+        <p><i>This exploit <b>does</b> crash and hang. Sometimes you even have to retry 10 times to get the
+                jailbreak.</i></p>
         <p><i>Credits: @ChendoChap for kernel exploit (both the vulnerability and the implementation), Google Project Zero for WebKit vulnerability.</i></p>
     </div>
     <div id="russian" class="language" style="display: none">
@@ -74,7 +75,7 @@ window.applicationCache.oncached = window.applicationCache.onupdateready = funct
                 <a href="https://github.com/ChendoChap/pOOBs4/raw/master/exfathax.img">специальный образ</a>, вызывающий
                 повреждение памяти PS4. Это можно сделать с помощью программы Etcher (скачать можно <a href="https://www.balena.io/etcher/">здесь</a>).
                 <b>Обратите внимание: все данные будут удалены, и эту флешку нельзя будет использовать ни для чего больше.</b></li>
-            <li>Нажмите на ссылку &laquo;JB+MIRA&raquo;<s> (или &laquo;JB+GoldHEN&raquo;, что вам больше нравится)</s>. В течение приблизительно минуты
+            <li>Нажмите на ссылку &laquo;JB+MIRA&raquo;<s> (или &laquo;JB+HEN&raquo;, что вам больше нравится)</s>. В течение приблизительно минуты
                 появится всплывающее окно &laquo;Insert USB now. do not close the dialog until notification pops, remove usb after closing it.&raquo;.
                 Не закрывая его, вставьте флешку и дождитесь системного сообщения &laquo;Формат файловой системы не поддерживается&raquo;, после чего
                 вытащите флешку и нажмите OK. <b>Внимание: ни в коем случае не оставляйте флешку в приставке, втыкайте её только для активации!</b></li>
@@ -100,16 +101,14 @@ window.applicationCache.oncached = window.applicationCache.onupdateready = funct
     <div id="progress"></div>
 
 <p>
-<a href="payload.html#p0=mira/mira.js&p1=mira/mira2.js">JB+MIRA</a>
-<!-- not yet -->
-<a href="payload.html#p0=mira/mira.js&p1=goldhen20b.js">JB+GoldHEN</a>
-<!--<a href="payload.html#p0=mira/mira.js&p1=linux/1gb.js">JB+LINUX (VRAM 1GB)</a>-->
-<!--<a href="payload.html#p0=mira/mira.js&p1=linux/3gb.js">JB+LINUX (VRAM 3GB)</a>-->
-<!-- /not yet -->
-<a href="payload.html#p0=mira/mira.js&p1=ftp.js">JB+FTP</a>
-<a href="payload.html#p0=mira/mira.js&p1=fakeusb.js">JB+FAKEUSB</a>
-<a href="payload.html">JB+NETCAT (LEGACY)</a>
-<a href="payload.html#p0=mira/mira.js">JB+NETCAT</a>
+<button><a href="jb.html#p0=mira/mira.js&p1=mira/mira2.js">JB+MIRA</a></button>
+<button><a href="jb.html#p0=mira/mira.js&p1=goldhen212.js">JB+GoldHEN (2.1.2)</a></button>
+<button><a href="jb.html#p0=mira/mira.js&p1=linux/1gb.js">JB+LINUX (VRAM 1GB)</a></button>
+<button><a href="jb.html#p0=mira/mira.js&p1=linux/3gb.js">JB+LINUX (VRAM 3GB)</a></button>
+<button><a href="jb.html#p0=mira/mira.js&p1=ftp.js">JB+FTP</a></button>
+<button><a href="jb.html#p0=mira/mira.js&p1=fakeusb.js">JB+FAKEUSB</a></button>
+<button><a href="jb.html">JB+NETCAT (LEGACY)</a></button>
+<button><a href="jb.html#p0=mira/mira.js">JB+NETCAT</a></button>
 </p>
 </body>
 

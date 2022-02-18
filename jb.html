@@ -43,6 +43,12 @@ function runScript(what)
     eval.call(window, xhr.responseText);
 }
 
+function afterKernel()
+{
+    runScript('common/relocator.js');
+    done();
+}
+
 var params = getHashParams();
 </script>
 <script src="netcat.js"></script>
@@ -57,7 +63,9 @@ if('p0' in params)
 if('p1' in params)
     runScript(params.p1);
 </script>
-<script src="common/relocator.js"></script>
-</script>
+<script src="kexploit/int64.js"></script>
+<script src="kexploit/rop.js"></script>
+<script src="kexploit/kexploit.js"></script>
+<script src="kexploit-launcher.js"></script>
 </body>
 </html>

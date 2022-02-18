@@ -1,24 +1,28 @@
-CACHE MANIFEST 
-# Sleirs Host 900 18-12-2021
+CACHE MANIFEST
+# random: c2471c18df8976596f28c8bad47e343c67676
 
-fakeusb.js
+CACHE:
+common/relocator.js
+common/syscalls.js
+common/syscalls2.js
 ftp.js
-goldhen20b.js
+fakeusb.js
+goldhen212.js
 index.html
+jb.html
+kexploit/int64.js
+kexploit/kexploit.js
+kexploit/rop.js
 kexploit-launcher.js
+linux/1gb.js
+linux/3gb.js
+mira/mira.js
+mira/mira2.js
 netcat.js
 payload.html
-common\relocator.js
-common\syscalls.js
-common\syscalls2.js
-kexploit\int64.js
-kexploit\kexploit.js
-kexploit\rop.js
-mira\mira.js
-mira\mira2.js
-webkit-9.00\exploit.js
-webkit-9.00\malloc.js
-webkit-9.00\rop\rop.js
+webkit-9.00/exploit.js
+webkit-9.00/malloc.js
+webkit-9.00/rop/rop.js
 
 NETWORK:
 *
