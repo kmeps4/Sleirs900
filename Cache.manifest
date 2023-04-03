@@ -7,7 +7,8 @@ common/syscalls.js
 common/syscalls2.js
 ftp.js
 fakeusb.js
-goldhen225b8.js
+pl_goldhen23.js
+pl_goldhen24b5.js
 index.html
 jb.html
 kexploit/int64.js
