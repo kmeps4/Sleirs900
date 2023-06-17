@@ -8,7 +8,7 @@ common/syscalls2.js
 ftp.js
 fakeusb.js
 pl_goldhen23.js
-pl_goldhen24b5.js
+pl_goldhenbeta.js
 index.html
 jb.html
 kexploit/int64.js
@@ -19,8 +19,8 @@ linux/1gb.js
 linux/3gb.js
 mira/mira.js
 mira/mira2.js
+mira/jbcldr.js
 netcat.js
-payload.html
 webkit-9.00/exploit.js
 webkit-9.00/malloc.js
 webkit-9.00/rop/rop.js
